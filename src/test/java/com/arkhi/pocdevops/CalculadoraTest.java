@@ -23,7 +23,7 @@ public class CalculadoraTest {
 	@Test
 	public void testSubtrai() {
 		double a = 10;
-		double b = 5;	
+		double b = 3;	
 		Assert.assertEquals("Subtrai - Caso feliz ", Calculadora.subtrai(a, b), 5, 0.0001);	
 	}
 
