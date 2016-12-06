@@ -31,7 +31,7 @@ public class CalculadoraTest {
 	public void testSubtracao() {
 		double a = 10;
 		double b = 3;	
-		Assert.assertEquals("Subtração - Caso feliz ", Calculadora.subtrai(a, b), 5, 0.0001);	
+		Assert.assertEquals("Subtração - Caso feliz ", Calculadora.subtrai(a, b), 7, 0.0001);	
 	}
 
 	
