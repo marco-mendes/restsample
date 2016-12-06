@@ -14,7 +14,7 @@ public class Calculadora {
 	}
 
 	public static double divide(double a, double b) {
-		return 0; // DEVE SER IMPLEMENTADO;
+		return 0;
 	}
 
 }
