@@ -4,6 +4,12 @@ package com.arkhi.pocdevops;
 import org.junit.Test;
 import junit.framework.Assert;
 
+/**
+ * Classe de testes da calculadora DevOps
+ * Usada para demonstrar os conceitos de testes de unidade, automação de testes, automação de builds e métricas de automação
+ * @author Marco Mendes
+ *
+ */
 public class CalculadoraTest {
 
 	@Test
@@ -14,17 +20,17 @@ public class CalculadoraTest {
 	}
 
 	@Test
-	public void testMultiplica() {
+	public void testMultiplicacao() {
 		double a = 10;
 		double b = 5;	
-		Assert.assertEquals("Multiplicativa - Caso feliz ", Calculadora.multiplica(a, b), 50, 0.0001);	
+		Assert.assertEquals("Multiplicação - Caso feliz ", Calculadora.multiplica(a, b), 50, 0.0001);	
 	}
 
 	@Test
-	public void testSubtrai() {
+	public void testSubtracao() {
 		double a = 10;
-		double b = 5;	
-		Assert.assertEquals("Subtrai - Caso feliz ", Calculadora.subtrai(a, b), 5, 0.0001);	
+		double b = 3;	
+		Assert.assertEquals("Subtração - Caso feliz ", Calculadora.subtrai(a, b), 5, 0.0001);	
 	}
 
 	/*
