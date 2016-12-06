@@ -15,8 +15,8 @@ public class CalculadoraTest {
 	@Test
 	public void testSoma() {
 		double a = 10;
-		double b = 5;	
-		Assert.assertEquals("Soma - Caso feliz ", Calculadora.soma(a, b), 15, 0.0001);	
+		double b = 4;	
+		Assert.assertEquals("Soma - Caso feliz ", Calculadora.soma(a, b), 14, 0.0001);	
 	}
 
 	@Test
