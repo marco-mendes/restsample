@@ -27,7 +27,7 @@ public class CalculadoraTest {
 		Assert.assertEquals("Subtrai - Caso feliz ", Calculadora.subtrai(a, b), 5, 0.0001);	
 	}
 
-	
+	/*
 	@Test (expected = ArithmeticException.class)
 	public void testDivisaoPorZero() {
 		double a = 10;
@@ -41,7 +41,7 @@ public class CalculadoraTest {
 		double b = 2;	
 		Assert.assertEquals("Divisão - Caso feliz ", Calculadora.divide(a, b), 5, 0.0001);		
 	}
-	
+	*/
 	
 
 }
