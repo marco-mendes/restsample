@@ -22,7 +22,7 @@ public class Calculadora {
 	}
 
 	public static double divide(double a, double b) {
-		return 0; //TODO
+		return a/b; 
 	}
 
 }
