@@ -21,9 +21,9 @@ public class CalculadoraTest {
 
 	@Test
 	public void testMultiplicacao() {
-		double a = 10;
-		double b = 5;	
-		Assert.assertEquals("Multiplicação - Caso feliz ", Calculadora.multiplica(a, b), 50, 0.0001);	
+		double a = 9;
+		double b = 3;	
+		Assert.assertEquals("Multiplicação - Caso feliz ", Calculadora.multiplica(a, b), 27, 0.0001);	
 	}
 
 	@Test
