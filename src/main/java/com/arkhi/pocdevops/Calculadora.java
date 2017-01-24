@@ -23,7 +23,7 @@ public class Calculadora {
 	}
 
 	public static double divide(double a, double b) {
-		throw new UnsupportedOperationException();
+		return 0; // Não implementado ainda!!!!
 	}
 
 }

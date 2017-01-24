@@ -17,21 +17,24 @@ public class CalculadoraTest {
 
 		double a = 10;
 		double b = 5;	
-		Assert.assertEquals("Soma - Caso feliz ", Calculadora.soma(a, b), 15, 0.0001);	
+		Assert.assertEquals("Soma - Caso feliz ", 
+							Calculadora.soma(a, b), 15, 0.0001);	
 	}
 
 	@Test
 	public void testMultiplicacao() {
 		double a = 9;
 		double b = 3;	
-		Assert.assertEquals("Multiplicação - Caso feliz ", Calculadora.multiplica(a, b), 27, 0.0001);	
+		Assert.assertEquals("Multiplicação - Caso feliz ", 
+							Calculadora.multiplica(a, b), 27, 0.0001);	
 	}
 
 	@Test
 	public void testSubtracao() {
 		double a = 10;
 		double b = 3;	
-		Assert.assertEquals("Subtração - Caso feliz ", Calculadora.subtrai(a, b), 7, 0.0001);	
+		Assert.assertEquals("Subtração - Caso feliz ", 
+							Calculadora.subtrai(a, b), 7, 0.0001);	
 	}
 
 	
@@ -45,9 +48,18 @@ public class CalculadoraTest {
 	public void testDivideCasoFeliz() {
 		double a = 10;
 		double b = 2;	
-		Assert.assertEquals("Divisão - Caso feliz ", Calculadora.divide(a, b), 5, 0.0001);		
+		Assert.assertEquals("Divisão - Caso feliz ", 
+							Calculadora.divide(a, b), 5, 0.0001);		
 	}
 
 	
 
 }
+
+
+
+
+
+
+//	@Test (expected = ArithmeticException.class)
+
