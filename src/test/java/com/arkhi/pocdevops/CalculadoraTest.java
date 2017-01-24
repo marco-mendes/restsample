@@ -6,7 +6,8 @@ import junit.framework.Assert;
 
 /**
  * Classe de testes da calculadora DevOps
- * Usada para demonstrar os conceitos de testes de unidade, automação de testes, automação de builds e métricas de automação
+ * Usada para demonstrar os conceitos de testes de unidade, 
+ * automação de testes, automação de builds e métricas de automação
  * @author Marco Mendes
  * 
  */
@@ -45,6 +46,7 @@ public class CalculadoraTest {
 		Calculadora.divide(a, b);	
 	}
 	
+	@Test
 	public void testDivideCasoFeliz() {
 		double a = 10;
 		double b = 2;	
