@@ -23,7 +23,8 @@ public class Calculadora {
 	}
 
 	public static double divide(double a, double b) {
-		return 0; // Não implementado ainda!!!!
+		if (b == 0) throw new ArithmeticException();
+		return a/b;
 	}
 
 }
