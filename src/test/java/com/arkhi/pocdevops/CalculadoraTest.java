@@ -49,9 +49,9 @@ public class CalculadoraTest {
 	@Test
 	public void testDivideCasoFeliz() {
 		double a = 10;
-		double b = 2;	
+		double b = 4;	
 		Assert.assertEquals("Divisão - Caso feliz ", 
-							Calculadora.divide(a, b), 5, 0.0001);		
+							Calculadora.divide(a, b), 2.5, 0.0001);		
 	}
 
 	
