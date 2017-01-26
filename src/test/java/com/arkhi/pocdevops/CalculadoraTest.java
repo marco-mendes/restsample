@@ -38,13 +38,6 @@ public class CalculadoraTest {
 							Calculadora.subtrai(a, b), 7, 0.0001);	
 	}
 
-	
-	@Test (expected = ArithmeticException.class)
-	public void testDivisaoPorZero() {
-		double a = 10;
-		double b = 0;	
-		Calculadora.divide(a, b);	
-
 
 
 }
